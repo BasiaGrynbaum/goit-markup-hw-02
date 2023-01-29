@@ -5,7 +5,7 @@ body {
   background-color: #2f303a;
   font-weight: 400;
 }
-.fonthead {
+a.fonthead {
   color: #212121;
   font-weight: 500;
   font-size: 14px;
@@ -31,6 +31,3 @@ a:visited{color: #212121;}
 .fontcolor:visited{color: #2196f3;}
 ul{list-style: none;}
 .button:hover{background-color: #2196f3; cursor: pointer;}
-.button:
-ul{font-weight: 500; color: #212121;}
-
