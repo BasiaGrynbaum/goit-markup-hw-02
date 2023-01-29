@@ -15,6 +15,8 @@ a.fonthead {
 .fontweb {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
 }
 .fontcolor {
   color: #2196f3;
@@ -22,12 +24,25 @@ a.fonthead {
 a {
   text-decoration: none;
 }
-a:hover{text-decoration: underline; text-decoration-color: #2196f3;text-decoration-thickness: 2px;}
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #2196f3;
+  text-decoration-thickness: 2px;
+}
 .contact {
   color: #757575;
 }
 
-a:visited{color: #212121;}
-.fontcolor:visited{color: #2196f3;}
-ul{list-style: none;}
-.button:hover{background-color: #2196f3; cursor: pointer;}
+a:visited {
+  color: #212121;
+}
+.fontcolor:visited {
+  color: #2196f3;
+}
+ul {
+  list-style: none;
+}
+.button:hover {
+  background-color: #2196f3;
+  cursor: pointer;
+}
