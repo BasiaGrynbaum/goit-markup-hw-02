@@ -1,0 +1,36 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.foot {
+  background-color: #2f303a;
+  font-weight: 400;
+}
+.fonthead {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.fontweb {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.fontcolor {
+  color: #2196f3;
+}
+a {
+  text-decoration: none;
+}
+a:hover{text-decoration: underline; text-decoration-color: #2196f3;text-decoration-thickness: 2px;}
+.contact {
+  color: #757575;
+}
+
+a:visited{color: #212121;}
+.fontcolor:visited{color: #2196f3;}
+ul{list-style: none;}
+.button:hover{background-color: #2196f3; cursor: pointer;}
+.button:
+ul{font-weight: 500; color: #212121;}
+
