@@ -47,3 +47,12 @@ ul {
   background-color: #2196f3;
   cursor: pointer;
 }
+button{background: #F5F4FA;
+    border-radius: 4px;
+    width: 93px;
+    height: 38px;
+    left: 639px;
+    top: 174px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;}
