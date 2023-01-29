@@ -47,7 +47,7 @@ ul {
   background-color: #2196f3;
   cursor: pointer;
 }
-button{background: #F5F4FA;
+.button{background: #F5F4FA;
     border-radius: 4px;
     width: 93px;
     height: 38px;
@@ -55,4 +55,6 @@ button{background: #F5F4FA;
     top: 174px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;}
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;}
