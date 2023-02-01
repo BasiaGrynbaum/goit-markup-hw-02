@@ -1,12 +1,11 @@
-:root {
-}
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
-.white{color: #ffffff;
-  }
-.footer{
+.white {
+  color: #ffffff;
+}
+.footer {
   background-color: #2f303a;
   font-family: "Roboto";
   font-weight: 700;
@@ -45,7 +44,9 @@ address {
   font-size: 26px;
   line-height: 1.9375em;
 }
-.fontcolor{color: #2196f3;}
+.fontcolor {
+  color: #2196f3;
+}
 .fontcolor:visited {
   color: #2196f3;
 }
@@ -56,8 +57,8 @@ a:hover {
   text-decoration: underline;
   text-decoration-color: #2196f3;
   text-decoration-thickness: 2px;
-  
 }
+
 .contact {
   color: #757575;
   font-style: normal;
@@ -76,11 +77,13 @@ ul {
   background-color: #2196f3;
   cursor: pointer;
 }
-.button:focus{background-color: #2196f3;
-  cursor: pointer;}
+.button:focus {
+  background-color: #2196f3;
+  cursor: pointer;
+}
 .button {
   background: #f5f4fa;
-  
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625em;
