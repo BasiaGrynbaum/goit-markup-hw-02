@@ -59,6 +59,7 @@ a:hover {
   text-decoration: underline;
   text-decoration-color: #2196f3;
   text-decoration-thickness: 2px;
+  cursor: pointer;
 }
 
 .contact {
@@ -69,14 +70,13 @@ a:hover {
 a:visited {
   color: #212121;
 }
-.fontcolor:visited {
-  color: #2196f3;
-}
+
 ul {
   list-style: none;
 }
 .button:hover {
   background-color: #2196f3;
+  color: #ffffff;
   cursor: pointer;
 }
 .button:focus {
@@ -85,12 +85,15 @@ ul {
 }
 .button {
   background: #f5f4fa;
-
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625em;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.font-weight {
+  font-weight: 700;
 }
 .box-title {
   color: #212121;
@@ -103,4 +106,36 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875em;
+}
+.img-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1875em;
+}
+.img-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.1875em;
+}
+.main-section {
+  background-color: #2f303a;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2.625em;
+}
+h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1em;
+}
+.list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5em;
 }
