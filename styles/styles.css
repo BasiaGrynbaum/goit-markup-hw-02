@@ -1,18 +1,25 @@
 :root {
-  --brand-color: #212121;
+  --brand-color: #2196f3;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
 }
 body {
   font-family: "Roboto", sans-serif;
 }
 .white {
   color: #ffffff;
+  font-family: "Raleway", sans-serif;
 }
 .footer {
   background-color: #2f303a;
   font-family: "Roboto";
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.9375em;
+  line-height: 1.94;
   letter-spacing: 0.03em;
 }
 
@@ -21,14 +28,14 @@ address {
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.5em;
+  line-height: 1;
 }
 .fontcolor-foot {
-  color: #2196f3;
+  color: var(--brand-color);
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.9375em;
+  line-height: 1.94;
   letter-spacing: 0.03em;
 }
 
@@ -36,7 +43,7 @@ address {
   color: #212121;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1em;
+  line-height: 1;
   letter-spacing: 0.02em;
 }
 .fontweb {
@@ -44,21 +51,22 @@ address {
   color: #212121;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.9375em;
+  line-height: 1.94;
 }
 .fontcolor {
-  color: #2196f3;
+  color: var(--brand-color);
+  font-family: "Raleway", sans-serif;
 }
 .fontcolor:visited {
-  color: #2196f3;
+  color: var(--brand-color);
 }
-a {
-  text-decoration: none;
-}
+
 a:hover {
-  text-decoration: underline;
-  text-decoration-color: #2196f3;
-  text-decoration-thickness: 2px;
+  color: var(--brand-color);
+  cursor: pointer;
+}
+a:focus {
+  color: var(--brand-color);
   cursor: pointer;
 }
 
@@ -69,10 +77,6 @@ a:hover {
 
 a:visited {
   color: #212121;
-}
-
-ul {
-  list-style: none;
 }
 .button:hover {
   background-color: #2196f3;
@@ -88,9 +92,23 @@ ul {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.625em;
+  line-height: 1.66;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.main-button {
+  background: #2196f3;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.66;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.main-button:hover {
+  text-decoration: underline;
+  background-color: #8a407e;
 }
 .font-weight {
   font-weight: 700;
@@ -99,23 +117,23 @@ ul {
   color: #212121;
   font-weight: 700;
   font-size: 18px;
-  line-height: 2.25em;
+  line-height: 2.25;
 }
 .box-category {
   color: #757575;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.875em;
+  line-height: 1.88;
 }
 .img-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.1875em;
+  line-height: 1.19;
 }
 .img-description {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.1875em;
+  line-height: 1.19;
 }
 .main-section {
   background-color: #2f303a;
@@ -124,18 +142,18 @@ ul {
   font-size: 44px;
   line-height: 60px;
 }
-h2 {
+.header-sec {
   font-weight: 700;
   font-size: 36px;
-  line-height: 2.625em;
+  line-height: 2.63;
 }
-h3 {
+.header-third {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1em;
+  line-height: 1;
 }
 .list {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.5em;
+  line-height: 1.5;
 }
