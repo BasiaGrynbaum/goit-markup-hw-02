@@ -57,6 +57,7 @@ address {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .fontcolor {
   color: var(--brand-color);
@@ -77,6 +78,9 @@ a:focus {
 a.fonthead:focus {
   color: var(--brand-color);
   cursor: pointer;
+}
+header {
+  letter-spacing: 0.02em;
 }
 .contact {
   color: var(--light-grey-color);
@@ -111,7 +115,7 @@ nav {
   font-size: 16px;
   line-height: 1.88;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.06em;
 }
 .main-button:hover {
   text-decoration: underline;
@@ -124,21 +128,25 @@ nav {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 .box-category {
   color: var(--light-grey-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
 }
 .img-title {
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .img-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .main-section {
   background-color: var(--dark-grey-color);
@@ -148,14 +156,19 @@ nav {
   font-weight: 700;
   font-size: 36px;
   line-height: 2.63;
+  letter-spacing: 0.03em;
 }
 .header-third {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .list {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  color: var(--light-grey-color);
+  letter-spacing: 0.03em;
 }
